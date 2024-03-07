@@ -1,0 +1,55 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Untitled Document</title>
+<link href="../css/style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+<header>
+  <h1>Video en html</h1>
+&nbsp;</header>
+<nav>
+  <ul>
+    <li><a href="../index.html">Inicio</a>    &nbsp;</li>
+    <li><a href="../html/Galería.html">Galería&nbsp;</a>&nbsp;</li>
+    <li><a href="../html/Cuestionario.html">Cuestionario&nbsp;</a>&nbsp;</li>
+    <li><a href="../html/Contacto.html">Contacto&nbsp;</a>&nbsp;</li>
+    <li><a href="../html/Galería2.html">Galería 2&nbsp;</a>&nbsp;</li>
+    <li><a href="../html/Prácticas.html">Prácticas&nbsp;</a>&nbsp;</li>
+  </ul>
+</nav>
+<main>
+  <section>
+    <h2>Video&nbsp;</h2>
+    <p class="Texto_audio3">En esta sección únicamente insertamos el video que vemos a continuación, que representa el proceso del atarceder en cámara rápida. Dentro de sus propiedades no se realizó ninguna modificación con respecto al sonido y la reproducción, por lo que los visitantes reproducirán el video cuando consideren que es conveniente.&nbsp; &nbsp;</p>
+    <video controls class="video1">
+	  <source src="../Video/Cielo.mp4">
+	  </video>
+  &nbsp;</section>
+  <section>
+    <h2>Video silenciado (mute)</h2>
+    <p class="Texto_audio3">Para esta demostración, en el apartado de propiedades modifiqué los controles para que en automático el video se muestre silenciado, para que, cuando las personas visiten el sitio, noten la presencia del video, ya que este inicia en automático cuando acceden a la página web.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>
+    <video class="video1" controls="controls" muted="muted" autoplay="autoplay" >
+      <source src="../Video/Cielo.mp4">
+    </video>
+  &nbsp;</section>
+  <section>
+    <h2>Video reproducción cíclica (loop)</h2>
+    <p class="Texto_audio3">Al igual que arriba, se conservó la reproducción automática en cuanto los visitantes accedan a este sitio, la diferencia está en que, una vez termine el video, vuelve a comenzar, le dejé el sonido pero si lo que desean las personas es quitarlo, pueden hacerlo sin problema alguno.&nbsp; &nbsp; &nbsp;</p>
+    <video class="video1" controls="controls" autoplay="autoplay" loop="loop" >
+      <source src="../Video/Cielo.mp4">
+    </video>
+  &nbsp;</section>
+  <section>
+    <h2>Video repositorio</h2>
+    <p class="Texto_audio3">&nbsp;Se insertó un video directo de YouTube, cuidando que estuviera libre de derechos para que nos permita su reproducción, la cual iniciará al dar clic en el ícono de inicio.&nbsp;</p>
+	<iframe src="https://www.youtube.com/embed/MY5SatbZMAo?si=u2usmV2NtFG4GOdr" width="560" height="315" frameborder="0" class="iframevideo" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+&nbsp;</section>
+&nbsp;</main>
+<footer>
+  <h6>Elaborado por Salma Sheccid Vargas Todd&nbsp;</h6>
+&nbsp;</footer>
+</body>
+</html>
